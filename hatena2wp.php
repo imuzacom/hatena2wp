@@ -43,8 +43,6 @@ if ($token == ''){
 		<input type="file" name="uploaded_file"></input><br>
 		<input type="submit" value="Upload"></input>
 	</form>
-</body>
-</html>
 <?PHP
 if($flg && !empty($_FILES['uploaded_file'])){
 	$path = './';
@@ -137,4 +135,6 @@ if($flg && !empty($_FILES['uploaded_file'])){
     }
 }
 ?>
+</body>
+</html>
 
